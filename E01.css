@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: orangered;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+  }
+
+.page1{
+    margin: 0;
+    height: 633px;
+    width: 100%;
+    background-image: url("BICOL-UNIVERSITY_thumbnail.png");
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* General table styling */
+
+.navBar{
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 100%, transparent 100%),
+                linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.144) 10%, rgba(255, 255, 255, 0) 100%, transparent 100%),
+                #ffffff00; /* Fallback background color */
+    background-blend-mode: overlay;
+}
+
+.navBar table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.navBar td {
+    padding: 10px;
+}
+
+.topNAV td {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.header img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 15px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    width: 50%;
+}
+
+.text-content2{
+    display: flex;
+    flex-direction: column;
+    color:#000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    width: 50%;
+}
+
+
+.text-content h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 18px; /* Adjust font size */
+}
+
+.info {
+    margin-left: 11%;
+    text-align: left;
+}
+
+.info-item {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 10px; /* Space between lines */
+}
+
+.info-icon {
+    font-size: 17px; /* Adjust size as needed */
+    color: orangered; /* Icon color */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.info a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+/* Info styling */
+.info p {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+/* Bottom Navigation styling */
+.bottomNAV {
+    border-top: 1px solid #ddd; /* Optional: adds a border between sections */
+}
+
+.bottomNAV td {
+    width: 10%; /* Ensures each cell takes up 10% of the row width */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.code {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.complete {
+    font-size: 10px;
+    margin: 0;
+}
+
+/* Base styles for the link-item */
+.link-item {
+    text-decoration: none; /* Remove default underline from the link */
+    color: inherit; /* Inherit text color from parent */
+    position: relative; /* Create a positioning context for the pseudo-element */
+}
+
+/* Hover effect for the link-item */
+.link-item:hover::after {
+    content: ''; /* No text content */
+    position: absolute; /* Absolute positioning to place it below the link */
+    left: 0; /* Align with the left edge of the link */
+    bottom: -5px; /* Position it below the link (adjust as needed) */
+    width: 100%; /* Full width of the link */
+    height: 2px; /* Height of the underline */
+    background-color: rgb(255, 72, 0); /* Color of the underline */
+}
+.page{
+    margin: 0;
+    height: 633px;
+    width: 100%;
+    background-color: rgb(255, 72, 0);
+    display: flex;
+}
+
+.CollagesLogo {
+    width: 100px; /* Adjust size as needed */
+    margin-right: 15px;
+}
+
+.csspANDjmrigd,
+.CBEMandCN,
+.CSandIPESR,
+.CEandCAL,
+.CENGandIDEA,
+.CIT,
+.BU_GUINOBATAN,
+.BU_TABACOandGUBAT{
+    width: 50%; /* Each div takes up half of the page width */
+    height: auto;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.CBEMandCN{
+    background-color: #ffffff;
+}
+
+.collages {
+    margin-bottom: 20px; /* Space between collage sections */
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the header section */
+}
+
+.courses ul {
+    list-style-type: disc; /* Bullet points */
+    margin: 0;
+    padding-left: 130px; /* Space from left */
+}
+
+.courses li {
+    font-size: 20px; /* Font size for list items */
+    margin-bottom: 5px; /* Space between items */
+}
+
+.TX2 {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+.page3,
+.BU_GUINOBATAN{
+    background-color: #243c84;
+}
+
+.CEandCAL{
+    width: 50%; /* Each div takes up half of the page width */
+    height: auto;
+}
+
+.C2{
+    color: #ffffff;
+}
+
+.page4{
+    background-color: #ffffff;
+}
+
+.page5{
+    background-color: rgb(255, 72, 0);
+}
+
+footer {
+    margin: 0;
+    height: 316.5px;
+    width: 100%;
+    background-color: #000000; /* Fallback background color */
+    display: flex;
+    justify-content: center; /* Space items out across the footer */
+    align-items: center; /* Vertically center the items */
+}
+
+.BUinfo{
+    width: 30%;
+    height: 100%;
+    margin-right: 13%;
+}
+
+.header_footer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 3%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.header_footer .text-content {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    color: #ffffff;
+
+}
+
+.footer-logo {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 0px; /* Space between logo and heading */
+}
+
+.header_footer h1 {
+    font-size: 25px; /* Font size for the header/title */
+    margin: 0; /* Remove default margin */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for depth */
+}
+
+.separator {
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    border-top: 2px solid #ffffff;
+    margin-bottom: 5%;
+}
+
+.footer-logo {
+    width: 80px; /* Adjust size as needed */
+    margin: 20px 0;
+}
+
+.after_text-content p {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding: 1%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.after_text-content a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.after_text-content a:hover {
+    text-decoration: underline;
+}
+
+.after_text-content p:nth-child(4){
+    margin-top: 10%;
+}
+
+.philippineslogo {
+    display: flex; /* This makes the children (image and text) align side by side */
+    align-items: center; /* Vertically center the items */
+    width: 55%;
+}
+
+.philippineslogo img {
+    width: 150px; /* Adjust the size of the image */
+    margin-right: 10%; /* Add space between the image and the text */
+}
+
+.philippineslogo div p {
+    margin: 0; /* Remove extra margins */
+    font-size: 20px; /* Adjust font size as needed */
+    text-align: left;
+    color: #ffffff;;
+}
+
+
+.footer p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
